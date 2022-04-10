@@ -1,0 +1,378 @@
+$font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
+
+$primary:#191a19;
+
+$container-max-widths: 
+(
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+.container
+{
+   background-color: #2b2b2b;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.borde1
+{
+  background-color: #ffc300;
+}
+
+.sombra
+{
+  box-shadow: -1px -1px 5px #502803 inset;
+}
+
+.borde2
+{
+  background-color: #ff9f45;
+}
+
+.sombra
+{
+  box-shadow: -1px -1px 5px #502803 inset;
+}
+
+.borde3
+{
+  background-color: #ff8aae;
+}
+
+.sombra
+{
+  box-shadow: -1px -1px 5px #502803 inset;
+}
+
+.borde4
+{
+  background-color: #e60965;
+}
+
+.sombra
+{
+  box-shadow: -1px -1px 5px #502803 inset;
+} 
+
+.borde5
+{
+ background-color: #da1212;
+}
+
+.sombra
+{
+ box-shadow: -1px -1px 5px #502803 inset;
+}
+
+.nav1 a
+{
+ color: #fff;
+}
+.nav1 a:hover
+{
+ color: #da1212;
+}  
+
+.nav2 a
+{
+ color: #fff;
+}
+.nav2 a:hover
+{
+ color: #e60965;
+}   
+.nav3 a
+{
+ color: #fff;
+}
+.nav3 a:hover
+{
+ color: #533e85;
+}  
+.nav4 a
+{
+ color: #fff;
+}
+.nav4 a:hover
+{
+ color: #ff9f45;
+} 
+.nav5 a
+{
+ color: #fff;
+}
+.nav5 a:hover
+{
+  color: #ffc300;
+} 
+
+.fondo
+{
+  background:url(../im/background2.jpg);
+  height: 100%;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  -moz-background-size: 100% 100%; /*Firefox 3.6*/
+  -o-background-size: 100% 100%; /*opera*/
+  -webkit-background-size: 100% 100%; /*Safari*/
+  background-size: 100%  100%;
+ /*-moz-border-image: url('im/8.jpg') 0; /*Firefox 3.5*/
+} 
+
+.imagen3 img
+{
+position: relative; 
+left: 450px; 
+top:37px;
+} 
+.car4
+{
+ height: 100%;
+}   
+
+.margen
+{
+ margin-left: 65px;
+} 
+
+.margen1
+{
+ margin-right:65px;
+} 
+
+.d-flex a
+{
+  text-decoration: none;
+}
+
+.carousel-item
+{
+  height: 250px;
+}
+h5
+{
+  font-size: 30px;
+}
+p
+{
+  font-size: 15px;
+}
+.imagen  img
+{
+
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover)
+{
+ .imagen  img
+ {
+   height: 100%;
+   object-fit: cover;
+   object-position:center;
+ }
+}
+
+.pie
+{
+font-size: 6px;
+}
+.pie a
+{
+ color: #fff;
+ font-size: 11px;
+ text-transform: uppercase;
+ padding: 0 10px;
+ letter-spacing: 2px;
+}
+.pie a:hover
+{
+ color: salmon; 
+}
+
+
+@media (min-width: 0px) and (max-width: 575px)
+{
+  .fondo
+  {
+     background-size: cover;
+  }
+}  
+
+@media (max-width: 768px)
+{
+   .margen
+   {
+     margin-left: 8px;
+     margin-right: -8px;
+  
+   }
+   .car1
+   {
+      width: 100%;
+   }
+   .margen1
+   {
+      margin-right: -23px;
+      margin-left: -23px;
+   }
+   .car2
+   {
+     width: 100%;
+   }
+   .car3
+   {
+     width: 100%;
+   }
+
+}  
+@media (min-width: 768px) and (max-width: 768px)
+{
+    .car1
+    {
+      width: 83.5%;
+    }
+    .margen
+    {
+      margin-left: 68px;
+    }
+    .car2
+    {
+      width: 90.9%;
+    }
+    .margen1
+    {
+       margin-left: 30.5px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+  .margen
+  {
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+  .margen1
+  {
+    margin-right: 27px;
+    margin-left: 32px;
+  }
+
+}  
+@media (max-width: 992px)
+{
+    .fondo
+    {
+      height: 350px;
+    }
+    .car4
+    {
+       height: 100%;
+       
+    }
+
+    .carousel, .carousel-inner > .item > img 
+    {
+       width: 100%;
+    }
+
+} 
+@media (min-width: 992px) and (max-width: 992px)
+{
+   .margen
+   {
+    margin-right: 15px;
+   }
+   .margen1
+   {
+     margin-left: -20px;
+   }
+
+}  
+@media (min-width: 992px) and (max-width: 1200px)
+{
+  .margen
+  {
+    margin-left: 48px;
+  }
+  .margen1
+  {
+    margin-right: 48px;
+
+  }
+  .texto
+  {
+    font-size: 15px;
+  }          
+  .fondo
+  {
+      background-size: 100%;
+      background-position: center;
+      background-attachment: contain;
+      background-size: cover;
+      display: flex;
+      flex-flow: column nowrap;
+  }
+  .imagen  img
+  {
+     width: 100%;
+     height: auto;
+  }
+  
+  @supports(object-fit: cover)
+  {
+    .imagen  img
+    {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  
+}  
+@media (min-width: 992px) and (max-width: 1400px)
+{
+  .margen
+  {
+     margin-left: 50px;
+  }
+  .margen1
+  {
+    margin-right: 50px;
+  }
+}  
+@media (min-width: 1200px) and (max-width: 1400px)
+{
+  .margen
+  {
+    margin-left: 56px;
+  }
+  .margen1
+  {
+    margin-right: 56px;
+  }
+
+  .texto
+  {
+    font-size: 15px;
+  }          
+  
+  .imagen3 img
+  {
+    position: relative; 
+    left: 385px; 
+    top:37px;
+  } 
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
